@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CourseHUB</title>
-    <link rel="stylesheet" href="../public/style.css">
-    <link rel="icon" href="../public/favicon.ico">
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script href="scripts/script.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="../public/favicon.ico" id="icon">
+        <img src="images/favicon.ico" id="icon">
         <h1>CourseHUB</h1>
         <nav>
-            <a href="" id="current">Home</a>
+            <a href="home" id="current">Home</a>
             <a href="courses">Courses</a>
             <a href="about">About</a>
         </nav>
@@ -22,7 +23,8 @@
             <input type="text" placeholder="Search courses...">
             <input type="button" value="Search">
         </div>
-        <input type="button" id="login" value="Sign In">
+        <input href = "login" type="button" id="login" value="Sign In">
+        <input type="button" id="themebutton" value="Light" onclick="">
     </header>
     <section id="banner">
         <h2>Welcome to CourseHUB</h2>
@@ -79,7 +81,7 @@
         </div>
         <div>
             <h4>More</h4>
-            <p>Terms of Service</p>
+            <p href="termsandservices">Terms of Service</p>
         </div>
         <div>
             <h4>Follow Us</h4>
