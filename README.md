@@ -53,10 +53,11 @@ Download all the files and arrange as the struture given
 Install Node.js in your system
 
 open terminal 
+```
 $ npm init -y
 $ npm i express
 $ node index.js
-
+```
 
 ## 🔧 Technologies Used
 Frontend: HTML, CSS, JavaScript
