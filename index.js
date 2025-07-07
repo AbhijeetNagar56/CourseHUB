@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const port = 5501;
-const mainrouter = require('./routes/main');
-const userrouter = require('./routes/users');
+const mainrouter = require('./routes/mainRoutes');
+const userrouter = require('./routes/userRoutes');
 
 
 app.use(express.static(path.join(__dirname, 'public')));
