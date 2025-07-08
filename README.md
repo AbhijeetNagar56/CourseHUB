@@ -34,9 +34,7 @@ courseHUB/<br>
 │ └── about.html<br>
 │<br>
 ├── index.js # Main server file<br>
-├── package.json<br>
-├── package-lock.json<br>
-├── README.md<br>
+└── README.md<br>
 
 
 ---
