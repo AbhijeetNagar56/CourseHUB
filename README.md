@@ -17,26 +17,26 @@ CourseHUB is a simple and elegant educational web application that allows users 
 ---
 
 ## 🗂️ Project Structure
-courseHUB/
-│
-├── public/ # Static assets
-│ ├── images/favicon.ico
-│ ├── scripts/script.js
-│ └── stylesheets/stylesheet.css
-│
-├── routes/ # Express route modules
-│ ├── main.js
-│ └── users.js
-│
-├── views/ # HTML Views
-│ ├── index.html
-│ └── courses.html
-│ └── about.html
-│
-├── index.js # Main server file
-├── package.json
-├── package-lock.json
-├── README.md
+courseHUB/<br>
+│<br>
+├── public/ # Static assets<br>
+│ ├── images/favicon.ico<br>
+│ ├── scripts/script.js<br>
+│ └── stylesheets/stylesheet.css<br>
+│<br>
+├── routes/ # Express route modules <br>
+│ ├── main.js<br>
+│ └── users.js<br>
+│<br>
+├── views/ # HTML Views<br>
+│ ├── index.html<br>
+│ └── courses.html<br>
+│ └── about.html<br>
+│<br>
+├── index.js # Main server file<br>
+├── package.json<br>
+├── package-lock.json<br>
+├── README.md<br>
 
 
 ---
